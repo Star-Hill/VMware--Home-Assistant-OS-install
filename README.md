@@ -1,5 +1,3 @@
-[TOC]
-
 # Windows--VMwareWorkstation--HAOS环境搭建以及配置
 
 > 该文章分为两个部分
@@ -27,7 +25,7 @@
 
 > 3.点击Next进入下一个界面
 
-![image-20251101163837869](..\pic\HAOS\3.png)
+![image-20251101163837869](..\HAOS\3.png)
 
 > 4.点击Next进入下一个界面
 
