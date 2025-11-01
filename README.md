@@ -21,7 +21,7 @@
 
 > 2.点击Next进入下一个界面
 
-![2](..\pic\HAOS\2.png)
+![2](HAOS/2.png)
 
 > 3.点击Next进入下一个界面
 
@@ -29,19 +29,19 @@
 
 > 4.点击Next进入下一个界面
 
-<img src="..\pic\HAOS\4.png" alt="image-20251101164021403" style="zoom:80%;" />
+<img src="HAOS/4.png" alt="image-20251101164021403" style="zoom:80%;" />
 
 > 5.点击Next进入下一个界面
 
-![5](..\pic\HAOS\5.png)
+![5](HAOS/5.png)
 
 > 6.点击Next进入下一个界面
 
-![6](..\pic\HAOS\6.png)
+![6](HAOS/6.png)
 
 > 7.点击Next进入下一个界面
 
-![7](..\pic\HAOS\7.png)
+![7](HAOS/7.png)
 
 > 8.Next
 
@@ -49,17 +49,17 @@
 
 > 9.点击Next进入下一个界面
 
-![9](..\pic\HAOS\9.png)
+![9](HAOS/9.png)
 
-![10](..\pic\HAOS\10.png)
+![10](HAOS/10.png)
 
 > 10.Finish
 
-![10](..\pic\HAOS\11.png)
+![10](HAOS/11.png)
 
 > 11.左侧找到刚刚创建的HAOS(名字无所谓)，右键找到设置(Settings)
 
-![image-20251101165614797](..\pic\HAOS\12.png)
+![image-20251101165614797](HAOS/12.png)
 
 > 12.安装完成
 
@@ -75,17 +75,17 @@
 
 > 13.进去界面显示等待20分钟或者更长时间，等待,查看日志，日志往上看，如果出现连接不上github的红色报错，建议先等候，这里网络要求非常严格，超过十分钟则重新启动虚拟机中的HAOS，节点换一换看看能不能通过这个等候二十分钟  (手机热点十秒钟直接进)，输入用户名字密码地址等等信息，来到主界面
 
-![14](..\pic\HAOS\14.png)
+![14](HAOS/14.png)
 
 > 14.点击左侧导航栏最下面的用户，进入设置，打开高级模式，再到导航栏中找到设置，右侧有加载项，进入加载项，右下角出现加载项商店，搜索或者是往下找到  `ESPHome Device Builder` ,点击安装，安装完成后，也可以选择添加至侧边栏
 
-![15](..\pic\HAOS\15.png)
+![15](HAOS/15.png)
 
 > 15.侧边栏点击进入esphome,右下角->NEW DEVICE->CONTINUE->New Device Setup->起个名字->选择自己的芯片型号
 
 这里是esp32s3,名字是aaa,点击EDIT，编辑yaml文件
 
-![image-20251101171742066](..\pic\HAOS\16.png)
+![image-20251101171742066](HAOS/16.png)
 
 原始代码：
 
@@ -158,14 +158,14 @@ sensor:
 > 非正常方法(能看到进度):
 > 点击右上角的INSTALL->选一个 `Wirelessly` 
 
-![17](..\pic\HAOS\17.png)
+![17](HAOS/17.png)
 
 点击CLOSE,再次选择INSTAll的第二个方式，等待十秒钟左右的 preparing download… ，点击preparing download…  -> 选择Factory format (Previously Modern)  这里会下载一个bin文件，再次点击Download project下面的 Open ESPHome Web 进入下载界面，随后连接端口，浏览器选择好端口，随后点击烧录下载，选择刚刚下载的bin文件，点击下载后会先擦除ERASER ，随后烧录，等待圆形进度条走完，回到下面的界面，当主机和esp32连接在同一个网络时，会显示ONLINE
 
-![18](..\pic\HAOS\18.png)
+![18](HAOS/18.png)
 
 点击 VISIT ，进入 esp32s3 的设备界面,显示数据，如果是两个NA，则去yaml把DHT11的IO改为你自己板子上接DHT11的GPIO
-![image-20251101173851198](D:\Program_Workspace\Typora_Workspace\pic\HAOS\19.png)
+![19](HAOS/19.png)
 
 ## !!!注意 下面的说明比上述的所有内容都重要!!!
 
