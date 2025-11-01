@@ -17,7 +17,7 @@
 
 > 1.打开vmware，左上角File->New Virtual Machine Wizard
 
-![1](..\pic\HAOS\1.png)
+![1](HAOS\1.png)
 
 > 2.点击Next进入下一个界面
 
