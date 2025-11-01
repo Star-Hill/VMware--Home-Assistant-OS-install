@@ -45,7 +45,7 @@
 
 > 8.Next
 
-![image-20251101164803012](C:\Users\StarHill\AppData\Roaming\Typora\typora-user-images\image-20251101164803012.png)
+![8](HAOS/8.png)
 
 > 9.点击Next进入下一个界面
 
